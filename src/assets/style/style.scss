@@ -1,0 +1,23 @@
+@import url(font.css);
+@import "./navbar.scss";
+@import "./header.scss";
+@import "./footer.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "GothamProRegular";
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import "./main.scss";
+@import "./media.scss";
